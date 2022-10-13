@@ -7,6 +7,7 @@
     <title>Display user machine battery level</title>
 </head>
 <body>
+    <p>Your battery level status 👇</p>
     <script>
         navigator.getBattery().then(function(battery){
             battery.addEventListener('levelchange',function(){
